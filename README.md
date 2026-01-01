@@ -15,12 +15,11 @@ A production-ready object detection web application for PCB (Printed Circuit Boa
 	•	⚡ Fast YOLOv8 Inference – Optimized for low-latency detection
 
 # 🧠 Tech Stack
-	•	Model: YOLOv8 (Ultralytics)
-	•	Frontend & UI: Streamlit
-	•	Backend: Python
-	•	Computer Vision: OpenCV
-	•	Deep Learning: PyTorch
-	•	Deployment Ready: CPU / GPU compatible
+- **Model:** YOLOv8
+- **Backend:** Python
+- **Frontend/UI:** Streamlit
+- **Computer Vision:** OpenCV
+- **Deployment:** Local / Cloud-ready
 
 # Project structure
 ```bash
@@ -58,23 +57,24 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 ---
-#📊 Supported Detection Modes
-```bash
-Mode
-Description
-Image
-Upload and detect PCB components
-Batch
-Process multiple images together
-Video
-Detect components in videos
-Webcam
-Live real-time detection
-Dashboard
-Component count & analytics
+## 📊 Supported Detection Modes
 
-```
+| Mode | Description |
+|-----|------------|
+| 🖼 Image | Upload and detect PCB components from a single image |
+| 📦 Batch | Process multiple PCB images simultaneously |
+| 🎥 Video | Detect components in PCB videos |
+| 📷 Webcam | Real-time PCB component detection |
+| 📊 Dashboard | Component-wise analytics and counts |
 ---
+
+## ⚙️ How It Works
+1. Input image/video/webcam feed
+2. YOLOv8 performs component detection
+3. Bounding boxes + class labels generated
+4. Results visualized in Streamlit UI
+5. Dashboard aggregates component counts
+
 # 🎯 Use Cases
 	•	🏭 Automated PCB inspection
 	•	🧪 Electronics quality assurance
@@ -103,4 +103,5 @@ Final-year B.Tech (ECE) | Full-Stack & AI/ML Developer
 
 Give it a star ⭐ — it helps a lot!
 ---
+
 
